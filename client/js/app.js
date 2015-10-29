@@ -16,6 +16,8 @@ if (typeof jQuery === "undefined") {
   throw new Error("AdminLTE requires jQuery");
 }
 
+console.log("log app.js");
+
 /* AdminLTE
  *
  * @type Object

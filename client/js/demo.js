@@ -6,6 +6,8 @@
  */
 (function ($, AdminLTE) {
 
+  console.log("log demo.js");
+
   "use strict";
 
   /**
