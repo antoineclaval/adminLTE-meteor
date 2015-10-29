@@ -19,9 +19,11 @@ autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 jquery
 mizzao:jquery-ui
-jimmiebtlr:bootstrap-wysihtml5
 momentjs:moment
 dangrossman:bootstrap-daterangepicker
 nemo64:bootstrap
 less
 tsega:bootstrap3-datetimepicker
+jameslefrere:autoform-jquery-knob
+jackyqiu:meteor-jvectormap
+mrt:bootstrap3-wysihtml5
