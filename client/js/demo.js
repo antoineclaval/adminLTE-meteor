@@ -5,10 +5,11 @@
  * This file is for demo purposes only.
  */
 (function ($, AdminLTE) {
+  
+  "use strict";
 
   console.log("log demo.js");
 
-  "use strict";
 
   /**
    * List of all the available skins
