@@ -1,3 +1,15 @@
+Router.route('/', function () {
+  this.render('dashboard1-page');
+});
+
+Router.route('/dashboard1', function () {
+  this.render('dashboard1-page');
+});
+
+Router.route('/dashboard2', function () {
+  this.render('dashboard2-page');
+});
+
 if (Meteor.isClient) {
     Meteor.startup(function(){
        //jvectormap data
