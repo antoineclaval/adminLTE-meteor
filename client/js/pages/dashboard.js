@@ -9,6 +9,8 @@ $(function () {
 
   "use strict";
 
+   console.log("dashboard.js beginning");
+
   //Make the dashboard widgets sortable Using jquery UI
   $(".connectedSortable").sortable({
     placeholder: "sort-highlight",
@@ -48,6 +50,8 @@ $(function () {
   /* jQueryKnob */
   $(".knob").knob();
 
+  console.log("dashboard.js 53");
+
   //Sparkline charts
   var myvalues = [1000, 1200, 920, 927, 931, 1027, 819, 930, 1021];
   $('#sparkline-1').sparkline(myvalues, {
@@ -74,6 +78,8 @@ $(function () {
     width: '80'
   });
 
+  console.log("dashboard.js 81");
+
   //The Calender
   $("#calendar").datepicker();
 
@@ -81,6 +87,8 @@ $(function () {
   $('#chat-box').slimScroll({
     height: '250px'
   });
+
+  console.log("dashboard.js 91");
 
   /* Morris.js Charts */
   // Sales chart
@@ -135,6 +143,7 @@ $(function () {
     gridTextSize: 10
   });
 
+  console.log("dashboard.js 144");
   //Donut Chart
   var donut = new Morris.Donut({
     element: 'sales-chart',
@@ -166,5 +175,7 @@ $(function () {
       return ele;
     }
   });
+
+  console.log("dashboard.js end");
 
 });
