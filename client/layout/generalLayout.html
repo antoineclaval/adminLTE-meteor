@@ -1,4 +1,4 @@
-<template name="dashboard1Page">
+<template name="generalLayout">
   {{>head}}
   <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -12,7 +12,7 @@
         <!-- Content Header (Page header) -->
         {{>contentHeader}}
         <!-- Main content -->
-        {{>dashboard1}}
+        {{> yield}}
       </div><!-- /.content-wrapper -->
       {{>footer}}
       <!-- Control Sidebar -->

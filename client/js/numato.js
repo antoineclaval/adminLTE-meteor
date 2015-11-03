@@ -1,15 +1,18 @@
 console.log("numato.js");
 
 Router.route('/', function () {
-  this.render('dashboard1Page');
+  this.render('dashboard1');
+  this.layout('generalLayout');
 });
 
 Router.route('/dashboard1', function () {
-  this.render('dashboard1Page');
+  this.render('dashboard1');
+  this.layout('generalLayout');
 });
 
 Router.route('/dashboard2', function () {
-  this.render('dashboard2Page');
+  this.render('dashboard2');
+  this.layout('generalLayout');
 });
 
 if (Meteor.isClient) {
@@ -135,7 +138,7 @@ if (Meteor.isClient) {
         });
       });
 
-      Template.dashboard1.onRendered(function(){
+      Template.generalLayout.onRendered(function(){
         //Make the dashboard widgets sortable Using jquery UI
         $(".connectedSortable").sortable({
           placeholder: "sort-highlight",
