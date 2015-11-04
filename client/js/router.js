@@ -60,6 +60,30 @@ Router.route('/ui/timeline', function () {
   document.title = "AdminLTE | UI Timeline";
 });
 
+Router.route('/mailbox/compose', function () {
+  this.render('composePage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Compose Mail";
+});
+
+Router.route('/mailbox/inbox', function () {
+  this.render('mailboxPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Mailbox";
+});
+
+Router.route('/mailbox/readmail', function () {
+  this.render('readMailPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Mailbox";
+});
+
+Router.route('/calendar', function () {
+  this.render('calendarPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Calendar";
+});
+
 Router.route('/(.*)', function () {
   this.render('404');
   this.layout('generalLayout');
