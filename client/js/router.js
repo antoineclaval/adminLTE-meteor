@@ -59,3 +59,9 @@ Router.route('/ui/timeline', function () {
   this.layout('generalLayout');
   document.title = "AdminLTE | UI Timeline";
 });
+
+Router.route('/(.*)', function () {
+  this.render('404');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Page not found";
+});
