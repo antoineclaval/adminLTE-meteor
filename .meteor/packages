@@ -21,9 +21,7 @@ jquery
 mizzao:jquery-ui
 momentjs:moment
 dangrossman:bootstrap-daterangepicker
-nemo64:bootstrap
 less
-tsega:bootstrap3-datetimepicker
 jameslefrere:autoform-jquery-knob
 jackyqiu:meteor-jvectormap
 mrt:bootstrap3-wysihtml5
