@@ -84,6 +84,19 @@ Router.route('/calendar', function () {
   document.title = "AdminLTE | Calendar";
 });
 
+Router.route('/tables/simple', function () {
+  this.render('simpleDataTablePage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Simple Data table";
+});
+
+Router.route('/tables/data', function () {
+  this.render('dataTablesPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Data table";
+});
+
+/* Have to be last to catch all no defined URL */
 Router.route('/(.*)', function () {
   this.render('404');
   this.layout('generalLayout');

@@ -4741,3 +4741,9 @@ table.text-center th {
 .example-modal .modal {
   background: transparent !important;
 }
+
+/* for simple table pages */ 
+td,
+th {
+  padding: 8px;
+}
