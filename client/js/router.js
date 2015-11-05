@@ -96,6 +96,30 @@ Router.route('/tables/data', function () {
   document.title = "AdminLTE | Data table";
 });
 
+Router.route('/charts/chartjs', function () {
+  this.render('chartjsPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | ChartJS";
+});
+
+Router.route('/charts/flot', function () {
+  this.render('flotPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Flot";
+});
+
+Router.route('/charts/inline', function () {
+  this.render('inlinePage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Inline";
+});
+
+Router.route('/charts/morris', function () {
+  this.render('morrisPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Morris";
+});
+
 /* Have to be last to catch all no defined URL */
 Router.route('/(.*)', function () {
   this.render('404');
