@@ -120,6 +120,18 @@ Router.route('/charts/morris', function () {
   document.title = "AdminLTE | Morris";
 });
 
+Router.route('/forms/advanced', function () {
+  this.render('advanceFormPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | Advanced Forms";
+});
+
+Router.route('/forms/general', function () {
+  this.render('generalFormPage');
+  this.layout('generalLayout');
+  document.title = "AdminLTE | General Forms";
+});
+
 /* Have to be last to catch all no defined URL */
 Router.route('/(.*)', function () {
   this.render('404');

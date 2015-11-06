@@ -29,7 +29,6 @@ benmgreene:jquery-sparklines
 agnito:raphael
 rochal:slimscroll
 chhib:morris
-tkornblit:icheck
 fastclick
 fortawesome:fontawesome
 pagebakers:ionicons
@@ -38,3 +37,6 @@ maxharris9:meteor-bootstrap-slider
 rzymek:fullcalendar
 nemo64:bootstrap
 mrt:flot
+natestrauser:select2
+bigdsk:inputmask
+tkornblit:icheck
